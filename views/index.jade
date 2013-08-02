@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  script(id="example",type="template")
+    p foo! <%= name %>
+  div(id='mycontent')
+  div(id='myLayout')
